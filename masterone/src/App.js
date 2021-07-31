@@ -3,7 +3,7 @@
 function App() {
   return (
     <>
-      <h1>Master One</h1>
+      <h1>This is Restaurant App</h1>
     </>
   );
 }
