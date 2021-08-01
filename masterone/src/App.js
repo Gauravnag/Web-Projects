@@ -1,9 +1,9 @@
-
+import Restaurant from "./Component/Restaurant";
 
 function App() {
   return (
     <>
-      <h1>This is Restaurant App</h1>
+      <Restaurant />
     </>
   );
 }
