@@ -1,9 +1,12 @@
-
+import "./Hooks/style.css";
+import UseState from "./Hooks/UseState";
 
 function App() {
   return (
     <>
-      <h1>Master One</h1>
+      <div className="container">
+        <UseState />
+      </div>
     </>
   );
 }
