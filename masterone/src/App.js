@@ -1,9 +1,11 @@
+import "./style.css";
 
-
-function App() {
+const App = () => {
   return (
     <>
+    <div className="container">
       <h1>Master One</h1>
+    </div>
     </>
   );
 }
