@@ -1,11 +1,12 @@
-import "./style.css";
+import "./Hooks/style.css";
+import UseState from "./Hooks/UseState";
 
-const App = () => {
+function App() {
   return (
     <>
-    <div className="container">
-      <h1>Master One</h1>
-    </div>
+      <div className="container">
+        <UseState />
+      </div>
     </>
   );
 }
